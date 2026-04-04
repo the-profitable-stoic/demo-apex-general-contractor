@@ -1,0 +1,588 @@
+{
+  "business": {
+    "name": "Apex General Contractor",
+    "phone": "555-gen-r92",
+    "category": "general-contractor",
+    "city": "Salt Lake City",
+    "state": "UT"
+  },
+  "design": {
+    "preset": {
+      "id": "general-contractor-red-charge",
+      "categoryGroup": "general-contractor",
+      "name": "Red Charge",
+      "recipeFile": "general-contractor/red-charge.astro",
+      "colors": {
+        "primary": "#1E3A5F",
+        "primaryDark": "#0F1D30",
+        "primaryLight": "#c7ced7",
+        "secondary": "#1b3456",
+        "accent": "#3B82F6",
+        "background": "#FFFFFF",
+        "backgroundAlt": "#1E3A5F",
+        "surface": "#F5F7FA",
+        "text": "#111827",
+        "textLight": "#6B7280",
+        "textOnDark": "#FFFFFF",
+        "border": "#E5E7EB"
+      },
+      "typography": {
+        "headingFont": "DM Sans",
+        "headingWeight": "700",
+        "bodyFont": "Inter",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.2"
+      },
+      "shape": {
+        "borderRadius": "8px",
+        "buttonRadius": "8px",
+        "cardRadius": "12px",
+        "shadowStyle": "soft"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "surface",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "general-contractor/red-charge"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Trusted Home Experts in Salt Lake City",
+      "heroSubline": "Apex General Contractor brings reliability to every project. Serving Sandy, Draper, Lehi, and Provo with quality craftsmanship tailored to Utah's climate.",
+      "aboutTitle": "Built on Integrity",
+      "aboutText": [
+        "Founded in 2012, Apex General Contractor started as a small family-owned business serving historic homes in Salt Lake City's Avenues neighborhood. Over a decade later, we've grown to meet the demands of Utah's expanding communities while maintaining our personal touch.",
+        "We approach every project with meticulous attention to detail, especially important given Utah's freeze-thaw cycles and seismic activity. Our team specializes in solutions that stand up to mountain weather while preserving your home's character.",
+        "As active members of the Salt Lake Valley Builders Association, we're committed to sustainable practices that protect our beautiful Wasatch Front environment while strengthening local homes."
+      ],
+      "valueProps": [
+        {
+          "title": "Climate-Smart Building",
+          "description": "We specialize in materials and techniques that withstand Utah's heavy snow loads, temperature swings, and dry air."
+        },
+        {
+          "title": "Neighborhood Specialists",
+          "description": "From Sugar House bungalows to Draper's modern developments, we understand each area's unique architectural needs."
+        },
+        {
+          "title": "Transparent Process",
+          "description": "Daily updates and clear pricing mean no surprises - just quality work you can trust."
+        },
+        {
+          "title": "Local Partnerships",
+          "description": "We source materials from Utah suppliers whenever possible, supporting our community's economy."
+        }
+      ],
+      "ctaHeadline": "Ready to Build Confidence in Your Home?",
+      "ctaSubline": "Schedule a free consultation to discuss your project with our Salt Lake City team."
+    },
+    "services": [
+      {
+        "slug": "roof-replacement",
+        "name": "Roof Replacement",
+        "shortDescription": "Durable roofing solutions designed for Utah's heavy snow seasons.",
+        "description": "Living along the Wasatch Front means preparing for winter's heavy snow loads. We replace aging roofs with materials rated for mountain conditions, paying special attention to ice dam prevention and proper attic ventilation.\n\nOur process begins with a thorough inspection of your existing roof structure and insulation needs. For historic homes in areas like The Avenues, we carefully match original materials while upgrading underlying support. In newer developments like Draper, we install impact-resistant shingles that handle temperature swings.\n\nEvery installation includes snow load calculations specific to your neighborhood's elevation and typical snowfall. We also address Utah's dry air concerns with proper moisture barriers to prevent wood shrinkage and cracking over time.",
+        "process": [
+          "Step 1: Free inspection assessing snow load capacity and ventilation needs",
+          "Step 2: Customized material selection for your home's style and climate demands",
+          "Step 3: Careful tear-off with full debris containment",
+          "Step 4: Precision installation with extended weatherproofing warranties"
+        ],
+        "benefits": [
+          "Snow load-rated materials prevent winter damage",
+          "Proper ventilation extends roof lifespan",
+          "Energy-efficient options reduce heating costs",
+          "Local permitting handled seamlessly"
+        ],
+        "faq": [
+          {
+            "question": "How often should Utah roofs be replaced?",
+            "answer": "Most roofs last 15-25 years here depending on materials. South-facing slopes degrade faster due to intense sun exposure before winter storms."
+          },
+          {
+            "question": "Do you work during winter months?",
+            "answer": "Yes, with proper precautions. We schedule tear-offs on clear days and use temporary covers when needed to protect your home."
+          },
+          {
+            "question": "Can you match my historic home's original roofing?",
+            "answer": "We maintain relationships with specialty suppliers to source appropriate materials for Salt Lake's older neighborhoods whenever possible."
+          }
+        ]
+      },
+      {
+        "slug": "foundation-repair",
+        "name": "Foundation Repair",
+        "shortDescription": "Expert solutions for Utah's freeze-thaw and seismic challenges.",
+        "description": "Utah's dramatic temperature changes and seismic activity create unique foundation stresses. We specialize in diagnosing and repairing settlement cracks, heaving concrete, and earthquake-related shifts common throughout Salt Lake Valley.\n\nOur team begins with laser-level measurements to identify movement patterns. For older homes in areas like Sugar House, we often find original footings inadequate for modern use. In rapidly growing areas like Lehi's tech corridor, we address soil compaction issues from recent construction.\n\nRepairs may include helical piers for lift correction, epoxy injections for hairline cracks, or complete underpinning systems. Every solution considers future freeze-thaw cycles and includes drainage improvements to prevent recurring issues.",
+        "process": [
+          "Step 1: Comprehensive evaluation using digital leveling tools",
+          "Step 2: Custom repair plan addressing root causes",
+          "Step 3: Minimally invasive techniques when possible",
+          "Step 4: Final inspection with long-term monitoring recommendations"
+        ],
+        "benefits": [
+          "Prevents worsening structural damage",
+          "Reduces door/window sticking from shifts",
+          "Improves home safety during earthquakes",
+          "Includes 10-year transferable warranty"
+        ],
+        "faq": [
+          {
+            "question": "How can I tell if my foundation needs repair?",
+            "answer": "Look for diagonal cracks wider than 1/4\", sticking doors, or gaps between walls and ceilings. These often appear after our harsh winters."
+          },
+          {
+            "question": "Does homeowners insurance cover foundation repairs?",
+            "answer": "Sometimes - we'll help document damage sources to support your claim, especially for seismic or plumbing-related issues."
+          },
+          {
+            "question": "Will repairs disrupt my landscaping?",
+            "answer": "We use directional drilling when possible to minimize surface disturbance, especially important in established neighborhoods."
+          }
+        ]
+      },
+      {
+        "slug": "whole-house-remodel",
+        "name": "Whole House Remodel",
+        "shortDescription": "Transform your space while respecting Utah home character.",
+        "description": "Whether updating a 1940s bungalow in Capitol Hill or modernizing a 1990s Sandy family home, we approach whole-house remodels with sensitivity to original architecture and modern living needs.\n\nOur design-build process begins with understanding how your household uses space. We then develop plans that improve flow while maintaining structural integrity - especially important in Utah's earthquake zone. For historic districts, we navigate preservation guidelines while incorporating contemporary comforts.\n\nCommon projects include opening main floor layouts, adding mountain-view windows, or creating multi-generational suites. We pay special attention to energy efficiency upgrades that combat temperature extremes, like spray foam insulation and high-performance windows.",
+        "process": [
+          "Step 1: Lifestyle assessment and goal setting",
+          "Step 2: Architectural planning with 3D renderings",
+          "Step 3: Phased construction minimizing disruption",
+          "Step 4: Final walkthrough with maintenance guidance"
+        ],
+        "benefits": [
+          "Preserves home character while modernizing",
+          "Improves energy efficiency",
+          "Increases functionality for Utah lifestyles",
+          "Single-source accountability"
+        ],
+        "faq": [
+          {
+            "question": "How long do whole-house remodels typically take?",
+            "answer": "Most projects take 4-8 months depending on scope. We create detailed timelines accounting for material lead times and weather delays."
+          },
+          {
+            "question": "Can you help with historic district approvals?",
+            "answer": "Yes, we're experienced working with Salt Lake's Landmark Commission and can guide you through the process."
+          },
+          {
+            "question": "Do you handle kitchen/bath updates during remodels?",
+            "answer": "Absolutely - we coordinate all trades to ensure seamless integration of these complex spaces."
+          }
+        ]
+      },
+      {
+        "slug": "deck-construction",
+        "name": "Deck Construction",
+        "shortDescription": "Year-round outdoor living spaces built for mountain weather.",
+        "description": "Utah's dramatic seasons demand decks that withstand blazing summer sun and heavy winter snow. We design and build durable outdoor spaces using materials proven in our climate, from composite decking that resists drying to reinforced footings that prevent frost heave.\n\nFor homes along the benches with panoramic views, we incorporate glass railings to preserve sightlines. In shaded areas like Liberty Park neighborhoods, we select slip-resistant surfaces that handle morning dew and afternoon shade. Every design considers proper drainage to prevent ice buildup on stairs and walkways.\n\nWe're particularly experienced with hillside installations common in Draper and Sandy, where proper grading and retaining walls ensure long-term stability. All structures meet current snow load requirements and include hidden fasteners to prevent surface checking.",
+        "process": [
+          "Step 1: Site evaluation assessing sun exposure and drainage",
+          "Step 2: Material selection meeting your aesthetic and maintenance preferences",
+          "Step 3: Precision framing with hidden structural reinforcements",
+          "Step 4: Final inspection with care instructions"
+        ],
+        "benefits": [
+          "Materials chosen for Utah's UV exposure",
+          "Engineered for safety during freeze-thaw cycles",
+          "Custom designs maximize mountain views",
+          "Low-maintenance options available"
+        ],
+        "faq": [
+          {
+            "question": "Should I enclose my deck for winter use?",
+            "answer": "We can discuss three-season room options that handle snow loads while extending your living space."
+          },
+          {
+            "question": "How do you prevent wood decking from drying out?",
+            "answer": "We use premium cedar or composite materials with UV inhibitors, plus recommend annual sealing for natural wood."
+          },
+          {
+            "question": "Can you match my home's existing trim details?",
+            "answer": "Yes, we'll replicate architectural elements like railings and posts to maintain cohesive design."
+          }
+        ]
+      },
+      {
+        "slug": "bathroom-remodel",
+        "name": "Bathroom Remodel",
+        "shortDescription": "Luxurious yet practical baths for Utah's dry climate.",
+        "description": "Utah's low humidity affects everything from grout longevity to wood vanity care. Our bathroom remodels address these unique challenges while creating spa-like retreats suited to your home's era and your family's needs.\n\nFor historic homes in areas like 9th and 9th, we preserve original layouts while upgrading plumbing and ventilation. In student-heavy Provo neighborhoods near BYU, we design durable shared baths with easy-clean surfaces. All projects include proper vapor barriers and humidity-controlled exhaust systems to prevent drywall damage.\n\nWe specialize in water-saving fixtures that perform well with our mineral-rich water, from pressure-balanced shower valves to easy-drain tile patterns. For primary suites, we often incorporate heated floors - a welcome luxury during cold Wasatch Front winters.",
+        "process": [
+          "Step 1: Consultation assessing your water usage and storage needs",
+          "Step 2: Design phase selecting moisture-resistant materials",
+          "Step 3: Careful demolition protecting existing structures",
+          "Step 4: Installation with daily cleanup"
+        ],
+        "benefits": [
+          "Materials selected for hard water resistance",
+          "Improved ventilation prevents mold",
+          "Water-efficient without sacrificing pressure",
+          "Accessibility options available"
+        ],
+        "faq": [
+          {
+            "question": "How do you prevent grout discoloration from our water?",
+            "answer": "We use premium epoxy grout and recommend whole-house water softeners for areas with particularly hard water."
+          },
+          {
+            "question": "Can you work within my existing plumbing layout?",
+            "answer": "In most cases yes, though we may suggest relocating fixtures for better functionality given space constraints."
+          },
+          {
+            "question": "What's the best flooring for Utah bathrooms?",
+            "answer": "Porcelain tile with textured finish provides warmth and slip resistance - we avoid materials that shrink like certain engineered woods."
+          }
+        ]
+      },
+      {
+        "slug": "kitchen-remodel",
+        "name": "Kitchen Remodel",
+        "shortDescription": "Heart-of-the-home renovations for mountain living.",
+        "description": "Utah kitchens need to handle everything from holiday feasts to everyday meal prep while standing up to our unique climate. We design culinary spaces that balance beauty and practicality, using materials that resist drying and temperature fluctuations.\n\nFor older homes in Capitol Hill, we preserve original cabinet frames while upgrading interiors with modern storage solutions. In fast-growing areas like Lehi, we create tech-friendly kitchens with charging stations and smart lighting. All designs include proper ventilation to combat winter inversion cooking smells.\n\nWe pay special attention to countertop selections - avoiding materials prone to cracking in dry air - and cabinet finishes that won't check over time. Pantry designs often incorporate extra storage for bulk goods common in Utah households.",
+        "process": [
+          "Step 1: Cooking style assessment and storage audit",
+          "Step 2: Layout planning with traffic flow considerations",
+          "Step 3: Careful demolition protecting adjacent spaces",
+          "Step 4: Installation with daily cleanup"
+        ],
+        "benefits": [
+          "Materials selected for durability in dry climates",
+          "Improved functionality for family gatherings",
+          "Energy-efficient appliance guidance",
+          "Seamless integration with existing architecture"
+        ],
+        "faq": [
+          {
+            "question": "How do you handle permits for kitchen remodels?",
+            "answer": "We secure all required Salt Lake Valley permits and coordinate inspections, especially important for electrical and gas line updates."
+          },
+          {
+            "question": "What countertops hold up best in Utah?",
+            "answer": "Quartz resists drying better than natural stone, while porcelain slab handles temperature swings beautifully."
+          },
+          {
+            "question": "Can you match my historic home's original cabinets?",
+            "answer": "Our finish specialists can replicate most vintage stains and hardware profiles when refinishing is preferred over replacement."
+          }
+        ]
+      },
+      {
+        "slug": "window-replacement",
+        "name": "Window Replacement",
+        "shortDescription": "Energy-efficient windows for Utah's temperature extremes.",
+        "description": "Salt Lake Valley's hot summers and cold winters demand windows that insulate effectively while standing up to freeze-thaw cycles. We replace aging single-pane windows with high-performance units that reduce energy bills and outside noise.\n\nFor historic districts like The Avenues, we offer authentic divided-light designs that meet preservation guidelines. In modern developments like Daybreak, we install sleek low-E glass that combats UV exposure. All installations include proper flashing and insulation to prevent air leaks common in our dry climate.\n\nWe particularly focus on south-facing windows that bear the brunt of summer heat and winter storms. Our team can advise on optimal glazing choices for each exposure and help qualify for Utah's energy efficiency rebates.",
+        "process": [
+          "Step 1: Energy audit identifying priority windows",
+          "Step 2: Product selection balancing performance and aesthetics",
+          "Step 3: Careful removal protecting interior finishes",
+          "Step 4: Precision installation with weatherproof sealing"
+        ],
+        "benefits": [
+          "Reduces heating/cooling costs significantly",
+          "Minimizes condensation and frost buildup",
+          "Preserves historic character when needed",
+          "Qualifies for local utility rebates"
+        ],
+        "faq": [
+          {
+            "question": "How much can new windows save on energy bills?",
+            "answer": "Most Utah homeowners see 15-25% reductions, especially noticeable during January inversions and July heat waves."
+          },
+          {
+            "question": "Do you replace windows year-round?",
+            "answer": "Yes, with proper precautions. We use temporary interior seals when working during extreme temperatures."
+          },
+          {
+            "question": "Can you match my original wood window trim?",
+            "answer": "Our carpenters meticulously replicate historic profiles using durable modern materials when originals can't be preserved."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Meredith K.",
+        "rating": 5,
+        "service": "Roof Replacement",
+        "text": "After last winter's heavy snow caused leaks in our Sugar House bungalow, Apex installed a beautiful standing-seam metal roof that handles snow slides perfectly. They preserved our original dormer details while adding proper ice/water shield. The crew was meticulous about cleaning up nails and old shingles every day.",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "James T.",
+        "rating": 5,
+        "service": "Foundation Repair",
+        "text": "Our Draper home developed concerning cracks after the 2024 earthquakes. Apex's foundation specialists installed helical piers that lifted our sunken porch perfectly. They even repaired our landscaping better than before. Most importantly, they explained everything in terms we could understand.",
+        "date": "2025-01-22"
+      },
+      {
+        "name": "Sophia R.",
+        "rating": 5,
+        "service": "Bathroom Remodel",
+        "text": "Apex transformed our 1950s Avenues bathroom from cramped to luxurious without losing its vintage charm. They suggested penny tile that hides mineral deposits from our hard water and installed a quiet exhaust fan that actually vents outside (unlike our old one). The heated floor gets daily use November through March!",
+        "date": "2024-11-30"
+      },
+      {
+        "name": "Carlos M.",
+        "rating": 5,
+        "service": "Deck Construction",
+        "text": "Our new composite deck in Sandy handles snow removal like a champ and doesn't get scorching hot in summer. The crew built custom planters that match our home's trim and designed railings that keep our toddlers safe without blocking the mountain view. Two winters in and zero issues with heaving or cracking.",
+        "date": "2024-10-17"
+      },
+      {
+        "name": "Lisa W.",
+        "rating": 5,
+        "service": "Kitchen Remodel",
+        "text": "As a serious home cook, I appreciated how Apex designed our Provo kitchen remodel around workflow. The quartz countertops stay cool for pastry work, and the new range hood actually eliminates cooking smells during inversion season. They even incorporated my grandmother's antique pie safe into the new design seamlessly.",
+        "date": "2024-09-05"
+      },
+      {
+        "name": "Derek H.",
+        "rating": 5,
+        "service": "Window Replacement",
+        "text": "Replacing our 1980s aluminum windows with energy-efficient ones made an immediate difference in our Liberty Park home's comfort. No more drafts during winter storms! Apex matched the original divided-light look perfectly and even repaired some rotted sills we hadn't noticed. Our heating bill dropped 20% this January.",
+        "date": "2024-08-12"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Salt Lake City General Contractor | Apex Construction",
+        "description": "Trusted local contractor serving Sandy, Draper, Lehi & Provo with climate-smart home renovations and repairs tailored to Utah's unique conditions."
+      },
+      "about": {
+        "title": "About Our Salt Lake City Construction Company",
+        "description": "Learn how Apex General Contractor brings decade of Wasatch Front building experience to every project from historic remodels to new construction."
+      },
+      "services": {
+        "title": "Utah Home Construction Services | Apex Contractor",
+        "description": "Comprehensive general-contractor services designed for Salt Lake Valley homes, from foundation repairs to whole-house remodels that stand up to mountain weather."
+      },
+      "contact": {
+        "title": "Contact Apex Contractor in Salt Lake City",
+        "description": "Get in touch with our local team for home construction and remodeling projects throughout Utah's Salt Lake and Utah counties."
+      },
+      "reviews": {
+        "title": "Utah Homeowner Reviews | Apex Construction",
+        "description": "See why Salt Lake Valley residents trust Apex General Contractor for quality home renovations that respect Utah's climate and architecture."
+      },
+      "service-areas": {
+        "title": "Serving Sandy, Draper, Lehi & Provo Homes",
+        "description": "Local general-contractor proudly serving Utah County and Salt Lake County communities with neighborhood-specific construction solutions."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    },
+    "serviceAreas": [
+      {
+        "city": "Sandy",
+        "slug": "sandy-ut",
+        "state": "UT",
+        "content": "Apex General Contractor proudly serves Sandy, UT, providing top-tier construction and remodeling services for homes primarily built in the 1980s-90s. Our expertise in handling snowy winters and inversions ensures your property remains durable and energy-efficient year-round. Whether it's roof repairs to withstand heavy snowfall or basement waterproofing to combat moisture, we tailor solutions for Sandy's unique climate challenges. We also specialize in updating older homes with modern amenities while preserving their classic charm, making them more functional for today's families.",
+        "localContext": "Sandy features a mix of well-established neighborhoods with a strong community feel, perfect for families and long-term residents.",
+        "nearbyAreas": [
+          "Draper",
+          "Midvale",
+          "Cottonwood Heights"
+        ]
+      },
+      {
+        "city": "Draper",
+        "slug": "draper-ut",
+        "state": "UT",
+        "content": "In Draper, UT, Apex General Contractor specializes in working with newer developments from the 1990s to 2020s. Our team understands the specific needs of modern construction, ensuring seamless remodels, additions, and repairs. Draper's cold, snowy winters and inversions require homes to have proper insulation and weatherproofing—services we excel at providing. From custom home builds to updating contemporary designs, we help homeowners create spaces that are both stylish and resilient against Utah's harsh winters.",
+        "localContext": "Draper is known for its rapid growth, blending suburban comfort with access to tech hubs and outdoor recreation.",
+        "nearbyAreas": [
+          "Sandy",
+          "Riverton",
+          "South Jordan"
+        ]
+      },
+      {
+        "city": "Lehi",
+        "slug": "lehi-ut",
+        "state": "UT",
+        "content": "Lehi, UT, is a booming tech corridor with rapid housing growth, and Apex General Contractor is here to meet the demands of this dynamic market. We specialize in new construction and remodeling projects tailored to modern families and professionals. Lehi's cold, snowy winters require homes built with durability in mind, and our expertise ensures your property is prepared for the elements. Whether you're building from scratch or upgrading an existing space, we deliver high-quality craftsmanship that aligns with Lehi's fast-paced lifestyle.",
+        "localContext": "Lehi combines tech-driven economic growth with family-friendly neighborhoods, making it a hotspot for young professionals.",
+        "nearbyAreas": [
+          "American Fork",
+          "Eagle Mountain",
+          "Saratoga Springs"
+        ]
+      },
+      {
+        "city": "Provo",
+        "slug": "provo-ut",
+        "state": "UT",
+        "content": "Serving Provo, UT, Apex General Contractor caters to a diverse housing market near Brigham Young University (BYU). From historic homes to student housing and modern builds, we handle renovations and repairs with precision. Provo's cold winters and inversions demand robust construction solutions, and we excel at improving energy efficiency and weather resistance. Whether you're a homeowner, landlord, or investor, we provide reliable services to enhance Provo's unique mix of properties.",
+        "localContext": "Provo offers a blend of academic vibrancy and tight-knit communities, with housing ranging from student rentals to upscale family homes.",
+        "nearbyAreas": [
+          "Orem",
+          "Springville",
+          "Pleasant Grove"
+        ]
+      },
+      {
+        "city": "Midvale",
+        "slug": "midvale-ut",
+        "state": "UT",
+        "content": "Apex General Contractor delivers exceptional construction and remodeling services in Midvale, UT, where mid-century homes meet modern updates. Our team is skilled in addressing the challenges of cold, snowy winters and inversions, ensuring your home stays comfortable and efficient. From kitchen remodels to full-home renovations, we help Midvale residents upgrade their living spaces while maintaining the area's classic appeal. Trust us to bring quality craftsmanship to your next project.",
+        "localContext": "Midvale is a centrally located city with a mix of historic charm and convenient access to Salt Lake Valley amenities.",
+        "nearbyAreas": [
+          "Sandy",
+          "Murray",
+          "Taylorsville"
+        ]
+      },
+      {
+        "city": "South Jordan",
+        "slug": "south-jordan-ut",
+        "state": "UT",
+        "content": "In South Jordan, UT, Apex General Contractor provides expert construction services for a growing community with diverse housing needs. Whether it's new builds in master-planned developments or updates to established homes, we prioritize durability against snowy winters and inversions. Our team specializes in creating functional, stylish spaces that cater to South Jordan's family-oriented lifestyle. From outdoor living areas to energy-efficient upgrades, we’re here to bring your vision to life.",
+        "localContext": "South Jordan is known for its high-quality schools, parks, and a balance of suburban and urban conveniences.",
+        "nearbyAreas": [
+          "Riverton",
+          "West Jordan",
+          "Herriman"
+        ]
+      },
+      {
+        "city": "Orem",
+        "slug": "orem-ut",
+        "state": "UT",
+        "content": "Apex General Contractor serves Orem, UT, with top-notch remodeling and construction services tailored to its university-influenced housing market. From student rentals to family homes, we address the challenges of cold winters and inversions with weather-resistant solutions. Our projects range from basement finishes to exterior upgrades, all designed to enhance Orem's vibrant community. Let us help you create a space that meets your needs and withstands Utah's climate.",
+        "localContext": "Orem is a hub for education and family living, with a strong sense of community and diverse housing options.",
+        "nearbyAreas": [
+          "Provo",
+          "Lindon",
+          "Pleasant Grove"
+        ]
+      },
+      {
+        "city": "West Jordan",
+        "slug": "west-jordan-ut",
+        "state": "UT",
+        "content": "West Jordan, UT, benefits from Apex General Contractor's expertise in handling a wide range of construction and remodeling projects. Our team is well-versed in preparing homes for cold, snowy winters and inversions, offering solutions like improved insulation and storm-resistant roofing. Whether you're updating an older home or building new, we deliver reliable craftsmanship that fits West Jordan's evolving landscape. Trust us to enhance your property’s functionality and curb appeal.",
+        "localContext": "West Jordan offers a mix of suburban tranquility and urban amenities, with a growing population and diverse housing styles.",
+        "nearbyAreas": [
+          "South Jordan",
+          "Taylorsville",
+          "Kearns"
+        ]
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "roof-replacement": "/images/service-roof-replacement.webp",
+      "foundation-repair": "/images/service-foundation-repair.webp",
+      "whole-house-remodel": "/images/service-whole-house-remodel.webp",
+      "deck-construction": "/images/service-deck-construction.webp",
+      "bathroom-remodel": "/images/service-bathroom-remodel.webp",
+      "kitchen-remodel": "/images/service-kitchen-remodel.webp",
+      "window-replacement": "/images/service-window-replacement.webp"
+    },
+    "servicesResponsive": {
+      "roof-replacement": {
+        "src": "/images/service-roof-replacement.webp",
+        "srcset": "/images/service-roof-replacement-400w.webp 400w, /images/service-roof-replacement-800w.webp 800w, /images/service-roof-replacement-1200w.webp 1200w, /images/service-roof-replacement.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "foundation-repair": {
+        "src": "/images/service-foundation-repair.webp",
+        "srcset": "/images/service-foundation-repair-400w.webp 400w, /images/service-foundation-repair-800w.webp 800w, /images/service-foundation-repair-1200w.webp 1200w, /images/service-foundation-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "whole-house-remodel": {
+        "src": "/images/service-whole-house-remodel.webp",
+        "srcset": "/images/service-whole-house-remodel-400w.webp 400w, /images/service-whole-house-remodel-800w.webp 800w, /images/service-whole-house-remodel-1200w.webp 1200w, /images/service-whole-house-remodel.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "deck-construction": {
+        "src": "/images/service-deck-construction.webp",
+        "srcset": "/images/service-deck-construction-400w.webp 400w, /images/service-deck-construction-800w.webp 800w, /images/service-deck-construction-1200w.webp 1200w, /images/service-deck-construction.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "bathroom-remodel": {
+        "src": "/images/service-bathroom-remodel.webp",
+        "srcset": "/images/service-bathroom-remodel-400w.webp 400w, /images/service-bathroom-remodel-800w.webp 800w, /images/service-bathroom-remodel-1200w.webp 1200w, /images/service-bathroom-remodel.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "kitchen-remodel": {
+        "src": "/images/service-kitchen-remodel.webp",
+        "srcset": "/images/service-kitchen-remodel-400w.webp 400w, /images/service-kitchen-remodel-800w.webp 800w, /images/service-kitchen-remodel-1200w.webp 1200w, /images/service-kitchen-remodel.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "window-replacement": {
+        "src": "/images/service-window-replacement.webp",
+        "srcset": "/images/service-window-replacement-400w.webp 400w, /images/service-window-replacement-800w.webp 800w, /images/service-window-replacement-1200w.webp 1200w, /images/service-window-replacement.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
